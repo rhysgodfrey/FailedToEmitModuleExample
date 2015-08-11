@@ -30,8 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FailedToEmitModuleExample.Obfuscated.6.8">
-      <HintPath>..\Obfuscated\FailedToEmitModuleExample.Obfuscated.6.8.dll</HintPath>
+    <Reference Include="FailedToEmitModuleExample.Obfuscated.6.9, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Obfuscated\FailedToEmitModuleExample.Obfuscated.6.9.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
