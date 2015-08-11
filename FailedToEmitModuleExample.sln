@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToEmitModuleExample", "FailedToEmitModuleExample\FailedToEmitModuleExample.csproj", "{4F41E5A5-CC3C-4B40-8046-87B1CE4C5CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obfuscated", "Obfuscated", "{7A636FFD-3BB5-42CE-B8AB-0B1A5BCC2AB1}"
+	ProjectSection(SolutionItems) = preProject
+		Obfuscated\FailedToEmitModuleExample.Obfuscated.6.8.dll = Obfuscated\FailedToEmitModuleExample.Obfuscated.6.8.dll
+		Obfuscated\FailedToEmitModuleExample.Obfuscated.6.9.dll = Obfuscated\FailedToEmitModuleExample.Obfuscated.6.9.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obfuscated Source Code", "Obfuscated Source Code", "{C6DD1C55-5377-42B9-93BB-864D8334197C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToEmitModuleExample.Obfuscated", "FailedToEmitModuleExample.Obfuscated\FailedToEmitModuleExample.Obfuscated.csproj", "{438F379A-9AEE-4596-9F78-9692D75CF165}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F41E5A5-CC3C-4B40-8046-87B1CE4C5CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F41E5A5-CC3C-4B40-8046-87B1CE4C5CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F41E5A5-CC3C-4B40-8046-87B1CE4C5CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F41E5A5-CC3C-4B40-8046-87B1CE4C5CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438F379A-9AEE-4596-9F78-9692D75CF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438F379A-9AEE-4596-9F78-9692D75CF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438F379A-9AEE-4596-9F78-9692D75CF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438F379A-9AEE-4596-9F78-9692D75CF165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{438F379A-9AEE-4596-9F78-9692D75CF165} = {C6DD1C55-5377-42B9-93BB-864D8334197C}
+	EndGlobalSection
+EndGlobal
