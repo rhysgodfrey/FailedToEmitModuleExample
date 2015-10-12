@@ -6,6 +6,9 @@ The issue occurs when calling a method with default parameters in a referenced a
 
 __Obfuscating the assembly using Red Gate Smart Assembly 6.9 fixes the build error.__
 
+## Fix Available
+The Roslyn team have fixed this issue as part of [Visual Studio 2015 Update 1](https://www.visualstudio.com/en-us/news/vs2015-update1-vs.aspx) (currently available as a CTP).
+
 ## Example Setup
 
 This example is a minimal solution to show the error.
